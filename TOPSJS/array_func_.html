@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a =[22,11,34,45,56]
+        document.write(' <br>'+a)
+        a.push(100,200,37)
+        document.write('<br>'+a)
+        a.pop()
+        document.write('<br>'+a)
+        a.unshift(22,55,44)
+        document.write('<br>'+a)
+        a.shift()
+        document.write('<br>'+a)
+        a.splice(2,2,500,600)
+        document.write('<br>'+a)
+        a.slice(3,2) //positionwise data all or remove
+        document.write('<br>'+a)
+            //slice - positionwise data get
+let b =a.slice(4)
+document.write('<br>'+b)
+b = a.slice(3,7)
+document.write('<br>'+b)
+b = a.slice(-4)
+document.write('<br>'+b)
+b = a.slice(-5,-2)
+document.write('<br>'+b)
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // loop- while,do_while & for loop
+        let i=2
+        // entry controlled loop
+        while(i<=10) { //1<=10 2<=10 11<=10
+            document.write('<br>'+i) //1 2
+            i+=2 // i=i+2
+            //i++ //2 3 4 5 6 7 8 9 10 11
+        }
+        document.write('<br><hr>')
+        
+        let j=10
+        do{ //exit controlled loop
+            document.write('<br>'+j) //10
+            j+=2 //12
+        } while(j<=20) //12<=20
+
+        document.write('<br><hr>')
+       
+        for(let i=11;i<=20;i+=3) {  // entry controlled loop
+            document.write('<br>'+i) //1 2
+        }
+    </script>
+</body>
+</html>

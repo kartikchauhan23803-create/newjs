@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let no=5010
+        let count=0
+        let sum=0
+        while(no>0){
+            let r=no%10
+            no=Math.floor(no/10)
+            count++
+            sum=sum+r
+        }
+        document.write('<br>total digits are '+count)
+    </script>
+</body>
+</html>
